@@ -22,7 +22,6 @@ import AllDestination from './component/AllDestination';
 import AddDestination from './component/AddDestination';
 import ManageDestination from './component/ManageDestination';
 import "react-toastify/dist/ReactToastify.css"
-// import HotelRegister from './component/HotelRegister';
 import AddPackage from './component/AddPackage';
 import ManagePackage from './component/ManagePackage';
 import SinglePackage from './component/SinglePackage';
@@ -76,7 +75,6 @@ function App() {
           <FadeLoader
             color={"#1f9c2e"}
             loading={loading}
-            // cssOverride={override}
             size={35}
             aria-label="Loading Spinner"
             data-testid="loader"
