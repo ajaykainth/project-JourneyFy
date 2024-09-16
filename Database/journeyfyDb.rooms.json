@@ -1,0 +1,492 @@
+[{
+  "_id": {
+    "$oid": "660985a68352717a02b3eebf"
+  },
+  "autoId": 1,
+  "name": "Delux Room",
+  "price": "₹2500 per day per person",
+  "hotelId": {
+    "$oid": "6601253ebaa9f9726876da0d"
+  },
+  "image": "room/1718546088884-image-bedroom-389254_1920.jpg",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-03-31T15:47:50.185Z"
+  },
+  "__v": 0,
+  "description": "Indulge in the comfort of our Deluxe Room at Hotel Sansar. This spacious room features a king-sized bed, modern amenities, and an elegant en-suite bathroom. Enjoy stunning views from your private balcony. Perfect for relaxation, the room also includes high-speed Wi-Fi and a flat-screen TV."
+},
+{
+  "_id": {
+    "$oid": "660985c38352717a02b3eec2"
+  },
+  "autoId": 2,
+  "name": "Standard Room",
+  "price": "₹1500 per day per person",
+  "hotelId": {
+    "$oid": "6601253ebaa9f9726876da0d"
+  },
+  "image": "room/1718531936297-image-pexels-pixabay-279746.jpg",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-03-31T15:48:19.170Z"
+  },
+  "__v": 0,
+  "description": ""
+},
+{
+  "_id": {
+    "$oid": "660986108352717a02b3eec5"
+  },
+  "autoId": 3,
+  "name": "Economy Room",
+  "price": "₹1500 per day per person",
+  "hotelId": {
+    "$oid": "660125a0baa9f9726876da14"
+  },
+  "image": "room/1711900176662-image-hotel-prestige-economy.avif",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-03-31T15:49:36.666Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660986368352717a02b3eec8"
+  },
+  "autoId": 4,
+  "name": "Delux Room",
+  "price": "₹2750 per day per person",
+  "hotelId": {
+    "$oid": "660125a0baa9f9726876da14"
+  },
+  "image": "room/1711900214516-image-hotel prestige-delux.webp",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-03-31T15:50:14.522Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660986868352717a02b3eecb"
+  },
+  "autoId": 5,
+  "name": "Budget Room",
+  "price": "₹900 per day per person",
+  "hotelId": {
+    "$oid": "66012606baa9f9726876da1b"
+  },
+  "image": "room/1711900294477-image-hotel woodpark-budget.jpg",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-03-31T15:51:34.486Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660986ff8352717a02b3eece"
+  },
+  "autoId": 6,
+  "name": "Standard Budget Room",
+  "price": "₹1500 per day per person",
+  "hotelId": {
+    "$oid": "66012606baa9f9726876da1b"
+  },
+  "image": "room/1711900415248-image-hotel woodparl-standard.jpg",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-03-31T15:53:35.254Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660987658352717a02b3eed1"
+  },
+  "autoId": 7,
+  "name": "Deluxe Room",
+  "price": "₹2000 per day per person",
+  "hotelId": {
+    "$oid": "660126efbaa9f9726876da22"
+  },
+  "image": "room/1711900517262-image-manali-paradise-delux.avif",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-03-31T15:55:17.266Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660987a68352717a02b3eed4"
+  },
+  "autoId": 8,
+  "name": "Basic Room",
+  "price": "₹1500 per day per person",
+  "hotelId": {
+    "$oid": "660126efbaa9f9726876da22"
+  },
+  "image": "room/1711900582493-image-manali-paradise-budget.jpg",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-03-31T15:56:22.496Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66099c4a8352717a02b3eed9"
+  },
+  "autoId": 9,
+  "name": "Deluxe Room",
+  "price": "₹1800 per day per person",
+  "hotelId": {
+    "$oid": "6601274ebaa9f9726876da29"
+  },
+  "image": "room/1711905866493-image-himgiri-delux.jpg",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-03-31T17:24:26.502Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66099c788352717a02b3eedc"
+  },
+  "autoId": 10,
+  "name": "standard Room",
+  "price": "₹1000 per day per person",
+  "hotelId": {
+    "$oid": "6601274ebaa9f9726876da29"
+  },
+  "image": "room/1711905912244-image-himgiri-standard.avif",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-03-31T17:25:12.247Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66099cde8352717a02b3eee1"
+  },
+  "autoId": 11,
+  "name": "Dormitory",
+  "price": "₹400 per day per person",
+  "hotelId": {
+    "$oid": "66012804baa9f9726876da37"
+  },
+  "image": "room/1711906014722-image-backpacker-dormitory.jpg",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-03-31T17:26:54.725Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66099d158352717a02b3eee4"
+  },
+  "autoId": 12,
+  "name": "Budget Room",
+  "price": "₹800 per day per person",
+  "hotelId": {
+    "$oid": "66012804baa9f9726876da37"
+  },
+  "image": "room/1711906069841-image-backpacker-budget.avif",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-03-31T17:27:49.846Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66099d668352717a02b3eee7"
+  },
+  "autoId": 13,
+  "name": "Economy Room",
+  "price": "₹2000 per day per person",
+  "hotelId": {
+    "$oid": "66012850baa9f9726876da3e"
+  },
+  "image": "room/1711906150616-image-anand-palace-economy.jpg",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-03-31T17:29:10.620Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66099d838352717a02b3eeea"
+  },
+  "autoId": 14,
+  "name": "Standard Room",
+  "price": "₹1500 per day per person",
+  "hotelId": {
+    "$oid": "66012850baa9f9726876da3e"
+  },
+  "image": "room/1711906179919-image-anand palace-standard.jpg",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-03-31T17:29:39.924Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662fd62250021cf247b579ae"
+  },
+  "autoId": 21,
+  "name": "Delux Room",
+  "price": "started from 1,200 rs per day",
+  "hotelId": {
+    "$oid": "66012792baa9f9726876da30"
+  },
+  "image": "room/1718535350008-image-pexels-pixabay-262048.jpg",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-04-29T17:17:22.280Z"
+  },
+  "__v": 0,
+  "description": "Experience luxury and comfort at Hotel Snowvalley in our Deluxe Room. Enjoy a plush king-size bed, modern bathroom, and stunning mountain views. Relax in the cozy seating area, stay productive with a work desk and complimentary high-speed Wi-Fi, and indulge in amenities like a Nespresso machine, minibar, and 24-hour concierge service."
+},
+{
+  "_id": {
+    "$oid": "666d49ab46aca96e76a73eee"
+  },
+  "autoId": 26,
+  "name": "aaa",
+  "price": "100000",
+  "description": "good",
+  "hotelId": {
+    "$oid": "6601253ebaa9f9726876da0d"
+  },
+  "image": "room/1718438315490-image-mesmerizing-view-houses-fields-covered-snow-surrounded-by-mountains-trees.jpg",
+  "status": false,
+  "createdAt": {
+    "$date": "2024-06-15T07:58:35.739Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6672e4cd6b6fad709fe001f0"
+  },
+  "autoId": 17,
+  "name": "Standard Room",
+  "price": "2500  per night",
+  "description": "Experience comfort and elegance in our Standard Room at Hotel Marina, featuring chic interiors, a plush queen-sized bed, modern amenities, and a serene ambiance perfect for relaxation. Enjoy complimentary high-speed Wi-Fi and a flat-screen TV with satellite channels. Ideal for both leisure and business travelers.",
+  "hotelId": {
+    "$oid": "6671bb4e8759ee29d2b83620"
+  },
+  "image": "room/1718805709026-image-marina-standard.jpg",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-06-19T14:01:49.045Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6672e5176b6fad709fe001f3"
+  },
+  "autoId": 18,
+  "name": "Delux Room",
+  "price": "3500 per day",
+  "description": "Indulge in luxury in our Deluxe Room at Hotel Marina, featuring spacious elegance, a king-sized bed, and stunning views of Shimla. Enjoy modern amenities including complimentary high-speed Wi-Fi, a flat-screen TV, and a well-stocked minibar. Perfect for an elevated stay.",
+  "hotelId": {
+    "$oid": "6671bb4e8759ee29d2b83620"
+  },
+  "image": "room/1718805783675-image-marina.jpg",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-06-19T14:03:03.681Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6672e6ce6b6fad709fe00214"
+  },
+  "autoId": 19,
+  "name": "Standard Room",
+  "price": "2000 per day",
+  "description": "Relax in comfort in our Standard Room at Hotel Combermere, offering cozy interiors, a comfortable queen-sized bed, and essential amenities for a pleasant stay in Shimla.",
+  "hotelId": {
+    "$oid": "6671ba318759ee29d2b83617"
+  },
+  "image": "room/1718806222855-image-combermere-standard.jpg",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-06-19T14:10:22.867Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6672e6f26b6fad709fe00217"
+  },
+  "autoId": 20,
+  "name": "Delux Room",
+  "price": "4000 per day",
+  "description": "Indulge in luxury in our Deluxe Room at Hotel Combermere, featuring spacious elegance, a king-sized bed, and captivating views of Shimla. Enjoy modern amenities including complimentary high-speed Wi-Fi, a flat-screen TV, and a well-stocked minibar. Perfect for an elevated stay.",
+  "hotelId": {
+    "$oid": "6671ba318759ee29d2b83617"
+  },
+  "image": "room/1718806258738-image-comberere delux.jpg",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-06-19T14:10:58.752Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6672e9066b6fad709fe00255"
+  },
+  "autoId": 21,
+  "name": "Standard Room",
+  "price": "2599 per day",
+  "description": "Discover comfort and convenience in our Standard Room at Hotel Shingar, featuring cozy interiors, a comfortable double bed, and essential amenities to ensure a pleasant stay in Shimla.",
+  "hotelId": {
+    "$oid": "6672de076b6fad709fdffd4a"
+  },
+  "image": "room/1718806790713-image-shingar-standard.avif",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-06-19T14:19:50.718Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6672e9866b6fad709fe00258"
+  },
+  "autoId": 22,
+  "name": "Delux Room",
+  "price": "Rs 5899 per day",
+  "description": "Experience enhanced comfort in our Deluxe Room at Hotel Shingar, offering spacious accommodations, a king-sized bed, and modern amenities including complimentary Wi-Fi, a flat-screen TV with satellite channels, and a minibar.",
+  "hotelId": {
+    "$oid": "6672de076b6fad709fdffd4a"
+  },
+  "image": "room/1718806918787-image-kenny-eliason-ZqqwJA71Ke4-unsplash.jpg",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-06-19T14:21:58.797Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6672eb0d6b6fad709fe00283"
+  },
+  "autoId": 23,
+  "name": "Standard Room",
+  "price": "₹ 3800 per day",
+  "description": "Enjoy a cozy retreat in our Standard Room at Honeymoon Inn, featuring charming interiors, a comfortable queen-sized bed, and essential amenities for a delightful stay in Shimla.",
+  "hotelId": {
+    "$oid": "6672dd786b6fad709fdffd41"
+  },
+  "image": "room/1718807309548-image-isaac-martin-wH2aFGo-Rt0-unsplash.jpg",
+  "status": false,
+  "createdAt": {
+    "$date": "2024-06-19T14:28:29.561Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6672ec2d6b6fad709fe002a8"
+  },
+  "autoId": 24,
+  "name": "Delux Room",
+  "price": "₹5800 per day",
+  "description": "Indulge in romance and luxury in our Deluxe Room at Honeymoon Inn, offering spacious elegance, a king-sized bed adorned with floral decor, and enchanting views of Shimla. Enjoy modern amenities including complimentary high-speed Wi-Fi, a flat-screen TV with satellite channels, and a minibar.",
+  "hotelId": {
+    "$oid": "6672dd786b6fad709fdffd41"
+  },
+  "image": "room/1718807597419-image-kenny-eliason-Cx188P-L_HY-unsplash.jpg",
+  "status": false,
+  "createdAt": {
+    "$date": "2024-06-19T14:33:17.458Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6672ee236b6fad709fe002be"
+  },
+  "autoId": 25,
+  "name": "Standard Room",
+  "price": "₹3000",
+  "description": "Experience comfort and tranquility in our Standard Room at Fortune Park Moksha, featuring tasteful decor, a cozy queen-sized bed, and essential amenities to ensure a relaxing stay in Shimla.",
+  "hotelId": {
+    "$oid": "6672dd786b6fad709fdffd41"
+  },
+  "image": "room/1718808099218-image-chastity-cortijo-R-w5Q-4Mqm0-unsplash.jpg",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-06-19T14:41:39.233Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6672ee416b6fad709fe002c1"
+  },
+  "autoId": 26,
+  "name": "Delux Room",
+  "price": "₹6500",
+  "description": "Indulge in luxury and serenity in our Deluxe Room at Fortune Park Moksha, offering spacious accommodations, a plush king-sized bed, and stunning views of the Himalayan foothills. Enjoy modern amenities including complimentary high-speed Wi-Fi, a flat-screen TV with satellite channels, and a minibar.\r\n\r\n",
+  "hotelId": {
+    "$oid": "6672dd786b6fad709fdffd41"
+  },
+  "image": "room/1718808129466-image-kenny-eliason-RP0Y7F-mE_0-unsplash.jpg",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-06-19T14:42:09.503Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66730d1f6b6fad709fe2041d"
+  },
+  "autoId": 27,
+  "name": "Delux Room",
+  "price": "₹6,500",
+  "description": "Experience enhanced comfort in our Deluxe Room at Hotel Surya, offering spacious accommodations, a king-sized bed, and modern amenities including complimentary Wi-Fi, a flat-screen TV with satellite channels, and a minibar.",
+  "hotelId": {
+    "$oid": "66730c896b6fad709fe20406"
+  },
+  "image": "room/1718816031577-image-francesca-tosolini-hCU4fimRW-c-unsplash.jpg",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-06-19T16:53:51.610Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6673112a6b6fad709fe20ff8"
+  },
+  "autoId": 28,
+  "name": "Deluxe Room",
+  "price": "₹8,000",
+  "description": "Indulge in luxury and serenity in our Deluxe Room at The Himalayan Village Resort, offering spacious accommodations, a king-sized bed, and breathtaking views of the surrounding mountains. Enjoy modern amenities including complimentary high-speed Wi-Fi, a flat-screen TV with satellite channels, and a well-stocked minibar.",
+  "hotelId": {
+    "$oid": "667310506b6fad709fe2081c"
+  },
+  "image": "room/1718817066456-image-kenny-eliason-RP0Y7F-mE_0-unsplash.jpg",
+  "status": true,
+  "createdAt": {
+    "$date": "2024-06-19T17:11:06.568Z"
+  },
+  "__v": 0
+}]

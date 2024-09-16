@@ -1,0 +1,343 @@
+[{
+  "_id": {
+    "$oid": "6601253ebaa9f9726876da0d"
+  },
+  "autoId": 1,
+  "name": "Hotel Sansar",
+  "email": "sansar@gmail.com",
+  "address": "Near High Court Parking, The Ridge, Shimla",
+  "contact": "+91-190-XXXXXXX",
+  "image": "hotel/1717657356729-image-facade.jpg",
+  "destinationId": {
+    "$oid": "65fffc5f5d3a652dac2e4493"
+  },
+  "userId": {
+    "$oid": "6601253ebaa9f9726876da0a"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2024-03-25T07:18:22.894Z"
+  },
+  "__v": 0,
+  "description": "Hotel Sansar offers an inviting sanctuary in the city's heart, blending modern elegance with warm hospitality. The hotel features  with stunning city views, a fine dining restaurant serving both local and international cuisines, and a fully-equipped fitness center. Perfect for both business and leisure travelers, Hotel Sansar is conveniently located near major attractions and shopping districts, ensuring a memorable and convenient stay."
+},
+{
+  "_id": {
+    "$oid": "660125a0baa9f9726876da14"
+  },
+  "autoId": 2,
+  "name": "Hotel Prestige",
+  "email": "prestige@gmail.com",
+  "address": "Mall Road, Shimla",
+  "contact": "+91-191-XXXXXXX",
+  "image": "hotel/1711351199982-image-hotel-prestige.webp",
+  "destinationId": {
+    "$oid": "65fffc7b5d3a652dac2e4496"
+  },
+  "userId": {
+    "$oid": "6601259fbaa9f9726876da11"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2024-03-25T07:20:00.103Z"
+  },
+  "__v": 0,
+  "description": "Hotel Prestige offers a luxurious escape in a prime location, featuring elegantly appointed rooms and suites designed for comfort and style. Guests can enjoy gourmet dining at the on-site restaurant and rejuvenate in the modern wellness center. Perfect for both business and leisure travelers, Hotel Prestige ensures a memorable stay with its impeccable service and close proximity to major attractions."
+},
+{
+  "_id": {
+    "$oid": "66012606baa9f9726876da1b"
+  },
+  "autoId": 3,
+  "name": "Hotel Woodpark",
+  "email": "woodpark@gmail.com",
+  "address": "Kufri-Chail Road, Kufri, Shimla",
+  "contact": "+91-192-XXXXXXX",
+  "image": "hotel/1714066017235-image-hotel-woodpark-Kufri.jpg",
+  "destinationId": {
+    "$oid": "660000c35d3a652dac2e4499"
+  },
+  "userId": {
+    "$oid": "66012606baa9f9726876da18"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2024-03-25T07:21:42.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660126efbaa9f9726876da22"
+  },
+  "autoId": 4,
+  "name": "Hotel Manali Paradise",
+  "email": "manaliparadise@gmail.com",
+  "address": "Old Manali Road, Manali",
+  "contact": "+91-194-XXXXXXX",
+  "image": "hotel/1711351535235-image-hotel-Manali_paradise.jpg",
+  "destinationId": {
+    "$oid": "660000c35d3a652dac2e4499"
+  },
+  "userId": {
+    "$oid": "660126efbaa9f9726876da1f"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2024-03-25T07:25:35.342Z"
+  },
+  "__v": 0,
+  "description": "Hotel Manali Paradise offers comfortable rooms with stunning views of the Manali hills. Guests can enjoy delicious cuisine at the on-site restaurant and relax in the cozy lounge. With its warm hospitality and prime location, it's ideal for both relaxation and adventure."
+},
+{
+  "_id": {
+    "$oid": "6601274ebaa9f9726876da29"
+  },
+  "autoId": 5,
+  "name": "Hotel Himgiri",
+  "email": "himgiri@gmail.com",
+  "address": "Mall Road, Manali",
+  "contact": "+91-195-XXXXXXX",
+  "image": "hotel/1711351630172-image-hotel-Himgiri.jpg",
+  "destinationId": {
+    "$oid": "660000f95d3a652dac2e449f"
+  },
+  "userId": {
+    "$oid": "6601274ebaa9f9726876da26"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2024-03-25T07:27:10.285Z"
+  },
+  "__v": 0,
+  "description": "Hotel Himgiri provides a cozy and welcoming atmosphere in the heart of the mountains. Guests can enjoy well-appointed rooms, delightful dining options, and easy access to local attractions. Perfect for a serene getaway, Hotel Himgiri promises comfort and convenience in a beautiful setting."
+},
+{
+  "_id": {
+    "$oid": "66012792baa9f9726876da30"
+  },
+  "autoId": 6,
+  "name": "Hotel Snow Valley",
+  "email": "snowvalley@gmail.com",
+  "address": "Resorts, Solang Valley, Manali",
+  "contact": "+91-196-XXXXXXX",
+  "image": "hotel/1711351698520-image-hotel-snow-valley.jpg",
+  "destinationId": {
+    "$oid": "660001135d3a652dac2e44a2"
+  },
+  "userId": {
+    "$oid": "66012792baa9f9726876da2d"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2024-03-25T07:28:18.673Z"
+  },
+  "__v": 0,
+  "description": "Nestled in a picturesque mountain setting, Hotel Snow Valley offers a serene retreat with breathtaking views of the surrounding peaks. The hotel features cozy, well-appointed rooms that provide a perfect blend of comfort and charm. Guests can enjoy hearty meals at the on-site restaurant, unwind in the relaxing spa, and explore nearby hiking and skiing trails. Ideal for nature lovers and adventure seekers alike, Hotel Snow Valley promises an unforgettable stay amidst stunning natural beauty."
+},
+{
+  "_id": {
+    "$oid": "66012850baa9f9726876da3e"
+  },
+  "autoId": 7,
+  "name": " Hotel Anand Palace",
+  "email": "anandpalace@gmail.com ",
+  "address": "Bhagsunag, McLeod Ganj",
+  "contact": "+91-198-XXXXXXX",
+  "image": "hotel/1711351888409-image-hotel-anand-palace.jpg",
+  "destinationId": {
+    "$oid": "660001495d3a652dac2e44a8"
+  },
+  "userId": {
+    "$oid": "66012850baa9f9726876da3b"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2024-03-25T07:31:28.479Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6671ba318759ee29d2b83617"
+  },
+  "autoId": 9,
+  "name": "Hotel Combermere",
+  "email": "combermere@gmail.com",
+  "address": "Opposite Tourism Lift, The Mall, Shimla, Himachal Pradesh 171001",
+  "contact": "911772651246",
+  "image": "hotel/1718729265240-image-hotel-combermer.jpg",
+  "description": "Hotel Combermere is known for its contemporary style and excellent service. It provides comfortable rooms, a rooftop restaurant with panoramic views, and a fitness center. Positioned close to the Tourism Lift, it ensures convenient access to The Ridge and other attractions.\r\n",
+  "destinationId": {
+    "$oid": "65fffc5f5d3a652dac2e4493"
+  },
+  "userId": {
+    "$oid": "6671ba318759ee29d2b83614"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2024-06-18T16:47:45.356Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6671bb4e8759ee29d2b83620"
+  },
+  "autoId": 10,
+  "name": "Hotel Marina Shimla",
+  "email": "marina@gmail.com",
+  "address": "The Mall, Shimla, Himachal Pradesh 171001",
+  "contact": "911772659901",
+  "image": "hotel/1718729550078-image-hotel-marina.jpg",
+  "description": "Hotel Marina offers stylish accommodations with modern amenities, including a spa, fitness center, and an outdoor terrace. Guests can enjoy delicious meals at the in-house restaurant and bar. Its convenient location on The Mall allows easy access to local attractions and shopping areas.",
+  "destinationId": {
+    "$oid": "65fffc5f5d3a652dac2e4493"
+  },
+  "userId": {
+    "$oid": "6671bb4e8759ee29d2b8361d"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2024-06-18T16:52:30.191Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6672dd786b6fad709fdffd41"
+  },
+  "autoId": 11,
+  "name": "Honeymoon Inn Shimla",
+  "email": "honeymooninn@gmail.com",
+  "address": "The Mall, Near Lift, Shimla, Himachal Pradesh 171001",
+  "contact": "911772652526",
+  "image": "hotel/1718803832850-image-honeymoon Inn.webp",
+  "description": "Honeymoon Inn Shimla is a charming hotel offering cozy rooms with scenic views, ideal for couples and families. It features a multi-cuisine restaurant, games room, and a beautiful garden. The hotel’s location near The Ridge and the lift makes it an excellent base for sightseeing.",
+  "destinationId": {
+    "$oid": "65fffc7b5d3a652dac2e4496"
+  },
+  "userId": {
+    "$oid": "6672dd786b6fad709fdffd3e"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2024-06-19T13:30:32.959Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6672de076b6fad709fdffd4a"
+  },
+  "autoId": 12,
+  "name": "Hotel Shingar",
+  "email": "shingar@gmail.com",
+  "address": "The Mall, Shimla, Himachal Pradesh 171001",
+  "contact": "911772652881",
+  "image": "hotel/1718803975547-image-hotel shingar.webp",
+  "description": " Hotel Shingar offers comfortable and well-furnished rooms with modern amenities. The hotel features a multi-cuisine restaurant and conference facilities. Its prime location on The Mall makes it convenient for exploring Shimla’s main attractions and enjoying shopping and dining.",
+  "destinationId": {
+    "$oid": "65fffc7b5d3a652dac2e4496"
+  },
+  "userId": {
+    "$oid": "6672de076b6fad709fdffd47"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2024-06-19T13:32:55.616Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6672dec56b6fad709fe00158"
+  },
+  "autoId": 13,
+  "name": "The Johnson Lodge & Spa",
+  "email": "johnson@gmail.com",
+  "address": "Circuit House Road, Old Manali, Manali, Himachal Pradesh 175131",
+  "contact": "918894499900",
+  "image": "hotel/1718804165461-image-hotel johnson.jpg",
+  "description": "The Johnson Lodge & Spa offers a luxurious stay with spacious rooms, a spa, and a beautiful garden. The hotel features a restaurant and bar, providing a variety of cuisines and drinks. Its location in Old Manali makes it a perfect base for exploring local attractions and enjoying the serene environment.",
+  "destinationId": {
+    "$oid": "660000e35d3a652dac2e449c"
+  },
+  "userId": {
+    "$oid": "6672dec56b6fad709fe00155"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2024-06-19T13:36:05.531Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6672e03d6b6fad709fe00167"
+  },
+  "autoId": 14,
+  "name": "Apple Country Resort",
+  "email": "applecountry@gmail.com",
+  "address": "Log-Huts Area, Old Manali, Manali, Himachal Pradesh 175131",
+  "contact": "911902252228",
+  "image": "hotel/1718804541144-image-apple-country-resort.jpg",
+  "description": " Apple Country Resort is set amidst apple orchards and offers luxurious accommodations with stunning views. The resort features a spa, restaurant, and bar, providing a tranquil retreat for guests. Its serene location in the Log-Huts area of Old Manali offers a peaceful escape from the bustling town.",
+  "destinationId": {
+    "$oid": "660000e35d3a652dac2e449c"
+  },
+  "userId": {
+    "$oid": "6672e03d6b6fad709fe00164"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2024-06-19T13:42:21.213Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66730c896b6fad709fe20406"
+  },
+  "autoId": 14,
+  "name": "Hotel Surya Mcleod",
+  "email": "surya@gmail.com",
+  "address": "Naddi Village, Dharamshala, Himachal Pradesh 176216",
+  "contact": "919816022322",
+  "image": "hotel/1718815881599-image-surya hotel.jpg",
+  "description": " Hotel Surya Mcleod offers comfortable accommodations with stunning views of the Dhauladhar mountains. The hotel features spacious rooms, a restaurant serving Indian and international cuisine, and a garden terrace. Its serene location in Naddi Village provides a peaceful retreat away from the hustle and bustle of Dharamshala town.",
+  "destinationId": {
+    "$oid": "6600015d5d3a652dac2e44ab"
+  },
+  "userId": {
+    "$oid": "66730c896b6fad709fe20403"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2024-06-19T16:51:21.804Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667310506b6fad709fe2081c"
+  },
+  "autoId": 15,
+  "name": "The Himalayan Village Resort",
+  "email": "himalyan@gmail.com",
+  "address": " Kasol, Parvati Valley, Himachal Pradesh 175105",
+  "contact": "919805060601",
+  "image": "hotel/1718816848071-image-the-himalayan-village.jpg",
+  "description": "The Himalayan Village Resort offers a luxurious stay in traditional Himachali-style cottages amidst pine forests and mountain views. The resort features spacious rooms, a spa offering Ayurvedic treatments, and a multi-cuisine restaurant. Its serene location in Kasol allows guests to unwind and explore the natural beauty of Parvati Valley.",
+  "destinationId": {
+    "$oid": "66000c1e5d3a652dac2e44b1"
+  },
+  "userId": {
+    "$oid": "667310506b6fad709fe20819"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2024-06-19T17:07:28.220Z"
+  },
+  "__v": 0
+}]
