@@ -24,7 +24,7 @@ export default function ShowUserBooking() {
       .then((res) => {
         
         console.log(res);
-        if(user){
+        if(data){
 
           setBookingData(res.data.data)
         }
