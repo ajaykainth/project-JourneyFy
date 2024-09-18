@@ -1,7 +1,7 @@
 const userModel = require('./userModel')
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
-const secret = "%@^%$($@(&($*)(*$&*&@%!&*#^^%@827&*E"
+require('dotenv').config()
 
 const login = (req, res) => {
     let validation = ''
@@ -37,7 +37,7 @@ const login = (req, res) => {
                                 email: userData.email,
                                 userType: userData.userType
                             }
-                            let token = jwt.sign(payload, secret, { expiresIn: "5h" })
+                            let token = jwt.sign(payload, process.env.SECRET, { expiresIn: "5h" })
                             res.send({
                                 success: true,
                                 status: 200,

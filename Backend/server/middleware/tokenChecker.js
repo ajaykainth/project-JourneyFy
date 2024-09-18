@@ -1,11 +1,11 @@
 const jwt = require('jsonwebtoken')
-const secret="%@^%$($@(&($*)(*$&*&@%!&*#^^%@827&*E"
+require('dotenv').config()
 
 const check = (req, res, next) => {
     let token = req.headers["authorization"]
 
     if (!!token) {
-        jwt.verify(token, secret, (err, decoded) => {
+        jwt.verify(token, process.env.SECRET, (err, decoded) => {
             if (err) {
                 res.send({
                     success: false,

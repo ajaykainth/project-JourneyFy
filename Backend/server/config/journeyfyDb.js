@@ -1,8 +1,10 @@
 const mongoose = require('mongoose')
-mongoose.connect('mongodb://127.0.0.1:27017/journeyfyDb')
+require('dotenv').config()
+mongoose.connect(process.env.MONGO_URL)
     .then(() => {
         console.log("DB connection successful");
     })
     .catch((err) => {
         console.log("Error in DB connection", err);
     })
+    
