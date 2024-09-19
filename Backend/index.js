@@ -1,9 +1,9 @@
 const express = require('express')
-
 const app = express();
 const cors=require('cors')
 const db = require('./server/config/journeyfyDb')
 const seed = require('./server/config/seed')
+
 // const corsOption={
 //     origin:"http://localhost:3000"
 // }
