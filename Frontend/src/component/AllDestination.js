@@ -51,7 +51,7 @@ export default function AllDestination(props) {
                                             <div className="card _card">
                                                 <img
                                                     className={"card-img-top card_img" + index}
-                                                    src={"http://localhost:8000/" + el.image}
+                                                    src={"https://project-journeyfy.onrender.com/" + el.image}
                                                     alt="Error"
                                                     style={{ height: "20rem" }}
                                                 />
@@ -75,7 +75,7 @@ export default function AllDestination(props) {
                                             <div className="card _card">
                                                 <img
                                                     className="card-img-top card_img"
-                                                    src={"http://localhost:8000/" + el.image}
+                                                    src={"https://project-journeyfy.onrender.com/" + el.image}
                                                     alt="Error"
                                                     style={{ height: "20rem" }}
                                                 />

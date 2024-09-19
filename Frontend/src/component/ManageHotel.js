@@ -33,7 +33,7 @@ export default function AllHotel() {
                                 <div className="col-sm-5">
                                     <img
                                         className="card-img "
-                                        src={"http://localhost:8000/" + el?.image}
+                                        src={"https://project-journeyfy.onrender.com/" + el?.image}
                                         alt="Error"
                                         style={{ height: "15rem", width: "100%" }}
                                     />

@@ -32,7 +32,7 @@ export default function AllHotel(props) {
                                 <Fragment key={index}>
                                     <div className="col-md-4 col-sm-12 mb-4">
                                         <div className="card _card">
-                                            <img className="card-img-top card_img" src={"http://localhost:8000/" + el.image} alt="Error" style={{ height: "20rem" }} />
+                                            <img className="card-img-top card_img" src={"https://project-journeyfy.onrender.com/" + el.image} alt="Error" style={{ height: "20rem" }} />
                                             <div className="card-body">
                                                 <h5 className="card-title">{el.name}</h5>
                                                 <h6 className="card-title">{el.address}</h6>
@@ -47,7 +47,7 @@ export default function AllHotel(props) {
                                 <Fragment key={index}>
                                     <div className="col-md-4 col-sm-12 mb-4">
                                         <div className="card _card">
-                                            <img className="card-img-top card_img" src={"http://localhost:8000/" + el.image} alt="Error" style={{ height: "20rem" }} />
+                                            <img className="card-img-top card_img" src={"https://project-journeyfy.onrender.com/" + el.image} alt="Error" style={{ height: "20rem" }} />
                                             <div className="card-body">
                                                 <h5 className="card-title">{el.name}</h5>
                                                 <h6 className="card-title">{el.address}</h6>

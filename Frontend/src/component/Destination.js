@@ -140,7 +140,7 @@ export default function () {
                         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                           <div className="room-item shadow rounded overflow-hidden">
                             <div className="position-relative">
-                              <img className="img-fluid " style={{height:"42vh", width:"100%"}} src={"http://localhost:8000/" + el.image} />
+                              <img className="img-fluid " style={{height:"42vh", width:"100%"}} src={"https://project-journeyfy.onrender.com/" + el.image} />
                               <small className="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">
                               {packageData?.price}/Per Person
                               </small>
