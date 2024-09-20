@@ -4,9 +4,9 @@ const cors=require('cors')
 const db = require('./server/config/journeyfyDb')
 const seed = require('./server/config/seed')
 
-const corsOption={
-    origin:"http://localhost:3000"
-}
+// const corsOption={
+//     origin:"http://localhost:3000"
+// }
 
 // ---Show file on frontend-----
 app.use(cors())
