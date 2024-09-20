@@ -3,12 +3,14 @@ const app = express();
 const cors=require('cors')
 const db = require('./server/config/journeyfyDb')
 const seed = require('./server/config/seed')
-
+const dotenv=require("dotenv")
 // const corsOption={
 //     origin:"http://localhost:3000"
 // }
 
 // ---Show file on frontend-----
+
+dotenv.config();
 app.use(cors())
 app.use(express.static('./server/public'))
 app.use(express.urlencoded({ extended: true }))
