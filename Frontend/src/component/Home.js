@@ -144,7 +144,7 @@ export default function Home() {
                     <div className="row w-100">
 
                         {
-                            destinationData.slice(0, 6).map((el, index) => (
+                            destinationData?.slice(0, 6).map((el, index) => (
 
                                 <Fragment key={index}>
                                     <div className="card col-md-6 col-xl-4 col-sm-12 " >
@@ -185,7 +185,7 @@ export default function Home() {
                     <h1 className="mb-5">Awesome Packages</h1>
                 </div>
                 <div className="row g-4 ">
-                    {packageData.slice(0, 3).map((el, index) => (
+                    {packageData?.slice(0, 3).map((el, index) => (
                         <Fragment key={index}>
                             <div className="col-md-6 col-xl-4 col-sm-12 wow fadeInUp packages" data-wow-delay="0.1s">
 

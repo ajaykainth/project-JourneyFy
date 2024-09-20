@@ -134,7 +134,7 @@ export default function () {
               <div className="row g-3">
                 <div className="col-md-12" >
                   <div className="row g-3">
-                    {filteredData.map((el, index) => (
+                    {filteredData?.map((el, index) => (
                       <Fragment key={index}>
                        
                         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">

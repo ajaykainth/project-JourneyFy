@@ -57,7 +57,7 @@ const all = (req, res) => {
     }
     req.body.status = true
 
-    destination.find(req.body)
+    destination?.find(req.body)
         // .sort({ createdAt: -1 })
         .exec()
         .then((result) => {

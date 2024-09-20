@@ -72,7 +72,7 @@ export default function () {
             <div className="col-lg-4 col-md-6">
               <h4 className="text-white mb-3">Gallery</h4>
               <div className="row g-2 pt-2">
-                {destination.slice(0, 6).map((destination, index) => (
+                {destination?.slice(0, 6).map((destination, index) => (
                   <Fragment key={index}>
                     <div className="col-4 col-xs-12" >
                       <img
