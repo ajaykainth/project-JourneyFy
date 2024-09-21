@@ -85,7 +85,7 @@ export default function Register() {
                             <input type="Password" value={password} onChange={(e) => { setPassword(e.target.value) }} /></div>
 
                         <div className="input2"> <label htmlFor="register">Contact</label>
-                            <input type="number" min={0} max={10} value={contact} onChange={(e) => { setContact(e.target.value) }} /></div>
+                            <input type="number" min={0} value={contact} onChange={(e) => { setContact(e.target.value) }} /></div>
 
 
                         <div className="input2"> <label htmlFor="login">Address</label>
