@@ -140,7 +140,7 @@ export default function () {
                         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                           <div className="room-item shadow rounded overflow-hidden">
                             <div className="position-relative">
-                              <img className="img-fluid " style={{height:"42vh", width:"100%"}} src={"https://project-journeyfy.onrender.com/" + el.image} />
+                              <img className="img-fluid " style={{height:"42vh", width:"100%"}} src={"https://journeyfy.onrender.com/" + el.image} />
                               <small className="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">
                               {packageData?.price}/Per Person
                               </small>
@@ -163,10 +163,10 @@ export default function () {
                                 </small>
                               </div>
                               <p className="text-body mb-3" style={{height:"3rem"}}>
-                                {el.address}
+                                {el?.address}
                               </p>
                               <div className="d-flex justify-content-between">
-                                <Link to={"/packages/" + el._id} className="btn btn-sm btn-primary rounded py-2 px-4" href="">
+                                <Link to={"/packages/" + el?._id} className="btn btn-sm btn-primary rounded py-2 px-4" href="">
                                   View Packages
                                 </Link>
                                

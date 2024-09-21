@@ -8,7 +8,7 @@ export default function AllDestination() {
     const [load, setLoad] = useState(false)
 
     useEffect(() => {
-        axios.post("https://project-journeyfy.onrender.com/admin/destination/all")
+        axios.post("https://journeyfy.onrender.com/admin/destination/all")
             .then((response) => {
                 // console.log(response);
                 setData(response.data.data)
@@ -58,7 +58,7 @@ export default function AllDestination() {
                                 <div className="col-sm-5">
                                     <img
                                         className="card-img "
-                                        src={"https://project-journeyfy.onrender.com/" + el.image}
+                                        src={"https://journeyfy.onrender.com/" + el.image}
                                         alt="Error"
                                         style={{ height: "15rem", width: "100%" }}
                                     />
