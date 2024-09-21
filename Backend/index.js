@@ -4,14 +4,16 @@ const cors=require('cors')
 const db = require('./server/config/journeyfyDb')
 const seed = require('./server/config/seed')
 const dotenv=require("dotenv")
+
 const corsOptions = {
-    origin: "https://journeyfy.vercel.app", // Ensure https:// is included
-    credentials: true // Optional, if you need to send cookies or authentication
+    origin: "https://journeyfy.vercel.app", 
+    credentials: true 
   };
   app.use(cors(corsOptions));
+
 // ---Show file on frontend-----
 
-dotenv.config();
+
 app.use(cors())
 app.use(express.static('./server/public'))
 app.use(express.urlencoded({ extended: true }))

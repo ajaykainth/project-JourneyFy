@@ -10,12 +10,9 @@ export default function Home() {
             .then((response) => {
                 console.log(response);
                 setPackageData(response.data.data)
-
-
-
             })
             .catch((err) => {
-                console.log(err);
+                console.log(err||"Error");
             })
     }, [])
     const [destinationData, setDestinationData] = useState([])
