@@ -4,9 +4,9 @@ const cors=require('cors')
 const db = require('./server/config/journeyfyDb')
 const seed = require('./server/config/seed')
 const dotenv=require("dotenv")
-// const corsOption={
-//     origin:"http://localhost:3000"
-// }
+const corsOption={
+    origin:"journeyfy.vercel.app"
+}
 
 // ---Show file on frontend-----
 
