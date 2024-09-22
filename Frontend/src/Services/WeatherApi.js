@@ -1,6 +1,5 @@
 // const apiKey = "zkv5ShSbLLGx5y2rJDJkt9r2pl7f1mo4";
-require('dotenv').config()
-const apiKey = process.env.WEATHER_KEY
+const apiKey = "5977571d8496f2f54577387b232aba4f"
 
 
 async function fetchGeoLocation(cityName) {
