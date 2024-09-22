@@ -325,7 +325,7 @@ Aos.init({ duration: 1500 });
                     <img src={BASE_URL + packageData?.hotelId?.image} alt="" />
                   </div>
                 </div>
-                <div className="col-xl-6 col-lg-6">
+                <div className="col-xl-6 col-lg-6 pt-10">
                   <div className="feature__area-left" data-aos="fade-left">
                     <div className="feature__area-left-title">
                       <span className="subtitle__one">Our Place</span>
@@ -339,7 +339,7 @@ Aos.init({ duration: 1500 });
                 </div>
               </div>
               <div className="row align-items-center bg-right mb-60 flex justify-between">
-                <div className="col-xl-6 col-lg-6  order-last order-lg-first">
+                <div className="col-xl-6 col-lg-6 pt-10 order-last order-lg-first">
                   <div className="feature__area-left" data-aos="fade-right">
                     <div className="feature__area-left-title">
                       <span className="subtitle__one">Our Stay</span>
@@ -449,8 +449,8 @@ Aos.init({ duration: 1500 });
                 >
                   <div className="carousel-inner" role="listbox">
                     <div className="carousel-item active">
-                      <div className="testimonial4_slide bg-transparent" style={{ fontSize: "50px" }}>
-                        Our Satisfied <br /> Customers
+                      <div className="testimonial4_slide bg-transparent" style={{ fontSize: "35px" }}>
+                       <h2>Our Satisfied <br /> Customers</h2> 
                       </div>
                     </div>
                     {review?.map((el, index) => (
