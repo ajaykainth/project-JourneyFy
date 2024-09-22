@@ -1,19 +1,8 @@
 // const apiKey = "zkv5ShSbLLGx5y2rJDJkt9r2pl7f1mo4";
-const apiKey = "5977571d8496f2f54577387b232aba4f"
+require('dotenv').config()
+const apiKey = process.env.WEATHER_KEY
 
-// async function fetchLocationKey(cityName) {
-//  try{
-//   const response = await fetch(
-//     `http://dataservice.accuweather.com/locations/v1/cities/search?apikey=${apiKey}&q=${cityName}`,
-//   );
 
-//   const data = await response.json();
-//   return data[0].Key;
-//  }
-//  catch(err){
-//   console.log(err);
-//  }
-// }
 async function fetchGeoLocation(cityName) {
   try {
     const response = await fetch(
@@ -39,12 +28,5 @@ catch(err){
 console.log(err);
 }
  }
-
-// async function fetch5DaysWeather(locationKey) {
-//   const response = await fetch(
-//     `http://dataservice.accuweather.com/forecasts/v1/daily/5day/${locationKey}?apikey=${apiKey}`,
-//   );
-//   return await response.json();
-// }
 
 export { fetchGeoLocation, fetchWeather };
