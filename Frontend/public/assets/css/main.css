@@ -1488,6 +1488,14 @@ table th {
         /* flex-direction: column !important; */
         align-items: center;
     }
+    .detail {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    
+    
+    }
 }
 
 
@@ -2085,7 +2093,7 @@ table th {
     color:#3C4048;
   }
   .weather__card h2 {
-    font-size:120px;
+    font-size:100px;
     font-weight:700;
     color:#3C4048;
     line-height: .8;

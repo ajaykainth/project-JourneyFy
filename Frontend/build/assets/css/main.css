@@ -1488,12 +1488,6 @@ table th {
         /* flex-direction: column !important; */
         align-items: center;
     }
-    .detail {
-       justify-content: center; 
-    align-items: center;
-    flex-direction: column;
-    
-    }
 }
 
 
