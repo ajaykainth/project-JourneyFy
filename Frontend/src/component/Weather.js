@@ -118,7 +118,7 @@ export default function Weather({ location }) {
                         <div className="weather__card">
                             <div className="d-flex flex-row justify-content-center align-items-center flex-wrap">
                                 <div className="p-3">
-                                    <h2>{Math.floor((weatherData[0]?.max + weatherData[0]?.min) / 2)}°</h2>
+                                    <h2 style={{fontSize:"30px"}}>{Math.floor((weatherData[0]?.max + weatherData[0]?.min) / 2)}°</h2>
                                 </div>
                                 <div className="p-3">
                                     <img src={weatherCodes[weatherData[0]?.weathercode]?.emoji} />
